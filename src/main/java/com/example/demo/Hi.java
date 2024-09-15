@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class Hi {
     @GetMapping
     static String Hi(){
-        return "Allah krasava";
+        return "Hello World";
     }
 
     @GetMapping("/q")
-    public String getq(@RequestParam String id) {
+    public String gaaaa(@RequestParam String id) {
         return "Hello World" + " " + id;
     }
 
